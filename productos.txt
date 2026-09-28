@@ -1,8 +1,8 @@
-1;Cuaderno;12500
-2;Lapiz;23500
-3;Boligrafo;14500
-4;Carpeta;22000
-5;Borrador;24000
-6;Regla;18000
-7;Marcador;18500
-8;Resaltador;15500
+1;Cuaderno;19500
+2;Lapiz;2000
+3;Boligrafo;21000
+4;Carpeta;7500
+5;Borrador;20500
+6;Regla;5500
+7;Marcador;10500
+8;Resaltador;21500

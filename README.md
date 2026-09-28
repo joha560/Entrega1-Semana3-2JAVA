@@ -1,10 +1,16 @@
-Entrega 1:Semana 3
+Entrega 2 – Semana 5
 Conceptos Fundamentales de Programación
 
-En esta entrega trabajé en la generación de los archivos que se usarán como datos de entrada del proyecto. La clase GenerateInfoFiles está escrita en Java 8. Al ejecutarla se crean un archivo de productos, otro de vendedores y cuatro archivos de ventas, uno para cada vendedor.
+Integrantes confirmados:
+Kevin Escobar
+Ingrid Flechas
 
-Los archivos se pueden relacionar entre sí: cada venta utiliza el número de documento de un vendedor registrado y el identificador de un producto existente. Los precios y las cantidades son positivos. Parte de los datos cambia cada vez que se ejecuta el programa para tener distintos ejemplos de prueba.
+En esta entrega continuamos el proyecto de vendedores, productos y ventas. La clase GenerateInfoFiles crea los archivos de prueba y la clase Main los lee para calcular los resultados.
 
-Para probarlo en Eclipse, se importa la carpeta como proyecto existente y se ejecuta src/GenerateInfoFiles.java como aplicación Java. Los archivos de texto aparecen en la carpeta principal del proyecto; si Eclipse no los muestra de inmediato, basta con actualizar el proyecto con Refresh.
+Al ejecutar Main se generan dos archivos. reporte_vendedores.csv muestra a los vendedores ordenados desde el que recaudó más dinero hasta el que recaudó menos. reporte_productos.csv muestra los productos ordenados según la cantidad de unidades vendidas e incluye el nombre, el precio y la cantidad.
 
-En esta primera entrega el programa solo genera los datos. Los cálculos de ventas y los reportes se desarrollarán en la siguiente etapa.
+El programa también revisa que los archivos existan y que sus datos tengan el formato esperado. Detecta, entre otros casos, cantidades o precios no válidos, productos inexistentes, vendedores que no estén registrados y campos vacíos.
+
+Para probar el proyecto en Eclipse se debe importar esta carpeta como un proyecto existente y comprobar que utilice Java 8. Primero se ejecuta src/GenerateInfoFiles.java con Run As > Java Application. Después se actualiza el proyecto con Refresh y se ejecuta src/Main.java de la misma manera. Los dos reportes aparecerán en la carpeta principal.
+
+Esta es una versión funcional de la segunda entrega. El archivo Estado_Entrega2.txt explica qué queda pendiente para la entrega final.
