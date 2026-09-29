@@ -6,7 +6,6 @@ import models.Venta;
 
 import java.io.*;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class ReportGenerator {
     private List<Producto> productos;
@@ -34,6 +33,17 @@ public class ReportGenerator {
             System.err.println("Error al generar reportes: " + e.getMessage());
             return false;
         }
+    }
+
+    /**
+     * Método auxiliar compatible con Java 8 para repetir strings
+     */
+    private String repetir(String str, int veces) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < veces; i++) {
+            sb.append(str);
+        }
+        return sb.toString();
     }
 
     /**
@@ -67,7 +77,7 @@ public class ReportGenerator {
 
             double totalVentas = ventasPorVendedor.values().stream()
                 .mapToDouble(Double::doubleValue).sum();
-            writer.write("\n" + "=".repeat(45) + "\n");
+            writer.write("\n" + repetir("=", 45) + "\n");
             writer.write(String.format("TOTAL GENERAL: $%.2f\n", totalVentas));
         }
 
@@ -105,7 +115,7 @@ public class ReportGenerator {
 
             int totalUnidades = cantidadPorProducto.values().stream()
                 .mapToInt(Integer::intValue).sum();
-            writer.write("\n" + "=".repeat(42) + "\n");
+            writer.write("\n" + repetir("=", 42) + "\n");
             writer.write(String.format("TOTAL DE UNIDADES VENDIDAS: %d\n", totalUnidades));
         }
 
