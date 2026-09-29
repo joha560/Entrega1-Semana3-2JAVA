@@ -7,7 +7,7 @@ Ingrid Flechas
 
 En esta entrega continuamos el proyecto de vendedores, productos y ventas. La clase GenerateInfoFiles crea los archivos de prueba y la clase Main los lee para calcular los resultados.
 
-Al ejecutar Main se generan dos archivos. reporte_vendedores.csv muestra a los vendedores ordenados desde el que recaudó más dinero hasta el que recaudó menos. reporte_productos.csv muestra los productos ordenados según la cantidad de unidades vendidas e incluye el nombre, el precio y la cantidad.
+Al ejecutar Main se generan dos archivos. reporte_vendedores.csv muestra a los vendedores ordenados desde el que recaudó más dinero hasta el que recaudó menos. reporte_productos.csv muestra los productos ordenados según la cantidad de unidades vendidas e incluye el nombre y el precio, tal como lo solicita la guía.
 
 El programa también revisa que los archivos existan y que sus datos tengan el formato esperado. Detecta, entre otros casos, cantidades o precios no válidos, productos inexistentes, vendedores que no estén registrados y campos vacíos.
 

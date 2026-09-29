@@ -219,8 +219,7 @@ public final class Main {
         try (BufferedWriter writer = Files.newBufferedWriter(PRODUCTS_REPORT,
                 StandardCharsets.UTF_8)) {
             for (Product product : ordered) {
-                writer.write(product.name + ";" + product.price.toPlainString()
-                        + ";" + product.soldQuantity);
+                writer.write(product.name + ";" + product.price.toPlainString());
                 writer.newLine();
             }
         }
