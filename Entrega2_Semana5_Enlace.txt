@@ -1,0 +1,20 @@
+ENTREGA 2 - SEMANA 5
+Conceptos Fundamentales de Programación
+
+INTEGRANTES
+Puello Aguilar Rafael Eduardo
+Silvia Morales Flor Emilia
+Kevin Escobar Beltran
+Ingrid Johanna Flechas Becerra
+
+PROYECTO
+Generación y clasificación de datos de ventas
+
+ENLACE AL REPOSITORIO PÚBLICO
+https://github.com/kevinesco-png/Entrega1-Semana3-2JAVA
+
+DESCRIPCIÓN
+El proyecto contiene una clase que genera los archivos de productos,
+vendedores y ventas. También contiene la clase Main, que procesa esos datos,
+calcula la recaudación de cada vendedor y la cantidad vendida de cada producto,
+ordena los resultados y genera dos reportes en formato CSV.

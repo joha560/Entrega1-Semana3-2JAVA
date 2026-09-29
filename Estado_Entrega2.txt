@@ -1,0 +1,18 @@
+ESTADO DE LA ENTREGA 2 - SEMANA 5
+
+La versión preliminar ya realiza las funciones principales:
+
+- Genera archivos de productos, vendedores y ventas.
+- Lee y relaciona la información de esos archivos.
+- Calcula el dinero recaudado por cada vendedor.
+- Calcula la cantidad vendida de cada producto.
+- Ordena los resultados de mayor a menor.
+- Genera reporte_vendedores.csv y reporte_productos.csv.
+- Detecta datos inexistentes, negativos, vacíos o con formato incorrecto.
+
+Pendiente para la entrega final:
+
+- Revisar con todos los integrantes la explicación del código.
+- Realizar las mejoras que indique el profesor después de evaluar esta entrega.
+- Preparar la sustentación y el archivo final de conclusiones solicitado para
+  las semanas 7 y 8.
