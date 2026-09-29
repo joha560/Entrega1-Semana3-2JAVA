@@ -1,9 +1,11 @@
 ENTREGA 2 - SEMANA 5
 Conceptos Fundamentales de Programación
 
-INTEGRANTES CONFIRMADOS
-Kevin Escobar
-Ingrid Flechas
+INTEGRANTES
+Puello Aguilar Rafael Eduardo
+Silvia Morales Flor Emilia
+Kevin Escobar Beltran
+Ingrid Johanna Flechas Becerra
 
 PROYECTO
 Generación y clasificación de datos de ventas

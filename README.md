@@ -1,9 +1,11 @@
 Entrega 2 – Semana 5
 Conceptos Fundamentales de Programación
 
-Integrantes confirmados:
-Kevin Escobar
-Ingrid Flechas
+Integrantes:
+Puello Aguilar Rafael Eduardo
+Silvia Morales Flor Emilia
+Kevin Escobar Beltran
+Ingrid Johanna Flechas Becerra
 
 En esta entrega continuamos el proyecto de vendedores, productos y ventas. La clase GenerateInfoFiles crea los archivos de prueba y la clase Main los lee para calcular los resultados.
 
